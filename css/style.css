@@ -31,6 +31,22 @@ scroll-behavior: smooth;
 
 }
 
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    color: #fff;
+    background: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.btn:hover{
+background: var(--dark-color);
+}
+
 .header .header-1{
     background-color: #fff;
     padding:1.5rem 9% ;
@@ -213,7 +229,11 @@ text-align: center;
 }
 
 
-
+.login-form-container form .checkbox label{
+    font-size: 1.5rem;
+    color: var(--light-color);
+    cursor: pointer;
+}
 
 
 /* media queries  */
