@@ -131,10 +131,41 @@ scroll-behavior: smooth;
     z-index: 1000;
 }
 
-body{
+/* body{
     height: 300rem;
+} */
+
+
+.bottom-navbar{
+    text-align: center;
+    background: var(--green);
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1000;
 }
 
+.bottom-navbar a{
+    font-size: 2.5rem;
+   padding: 2rem;
+   color: #fff;
+
+}
+.bottom-navbar a:hover{
+background: var(--dark-color);
+}
+.login-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+
+}
 
 
 
