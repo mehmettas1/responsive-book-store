@@ -254,7 +254,10 @@ text-align: center;
 }
 
 
-.login-form-container #close-login-btn
+.login-form-container #close-login-btn{
+    position: absolute;
+    
+}
 
 
 
