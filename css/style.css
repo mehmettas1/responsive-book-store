@@ -291,12 +291,28 @@ text-align: center;
 
 .home .row .book-slider{
     flex: 1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 
-.home .row .book-slider a{
+.home .row .book-slider a img{
+    height: 25rem;
+
+
+}
+.home .row .book-slider a:hover img{
+    transform: scale(.9);
     
+
 }
+
+.home .row .book-slider .stand{
+    width: 100%;
+    margin-top:-2rem ;
+}
+
+.home .row .content
 
 
 
