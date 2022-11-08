@@ -271,10 +271,32 @@ text-align: center;
 }
 
 
+.home{
+    background: url(../image/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.home .row .content{
+    flex: 1 1 42rem;
+}
 
 
+.home .row .book-slider{
+    flex: 1 1 42rem;
+}
 
 
+.home .row .book-slider a{
+    
+}
 
 
 
