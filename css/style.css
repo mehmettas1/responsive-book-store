@@ -312,7 +312,11 @@ text-align: center;
     margin-top:-2rem ;
 }
 
-.home .row .content
+.home .row .content h3{
+    color: var(--black);
+    font-size: 4.5rem;
+    
+}
 
 
 
