@@ -318,6 +318,14 @@ text-align: center;
     
 }
 
+.home .row .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    line-height: 2;
+    padding:1rem 0;
+    
+}
+
 
 
 
