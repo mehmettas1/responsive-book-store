@@ -12,7 +12,31 @@
 section{
     padding: 5rem 9%;
 }
+.heading{
+ text-align: center;
+ margin-bottom: 2rem;
+ position: relative;
 
+}
+.heading::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%);
+    height: .01rem;
+    background: rgba(0, 0, 0,.1);
+    z-index: -1;
+
+}
+
+.heading span {
+    font-size: 3rem;
+    padding: .5rem 2rem;
+    color: var(--black);
+    background: #fff;
+    border: var(--border);
+}
 *{
  font-family:'Poppins',sans-serif;
  margin: 0;
@@ -356,7 +380,10 @@ text-align: center;
 }
 
 
-
+.featured .featured-slider .box {
+    width: 25rem;
+    margin
+}
 
 
 
