@@ -382,9 +382,34 @@ text-align: center;
 
 .featured .featured-slider .box {
     width: 25rem;
-    margin
+    margin:2rem 0;
+    position: relative;
+    overflow: hidden;
+    border: var(--border);
+    text-align: center;
+
 }
 
+
+.featured .featured-slider .box:hover{
+    border: var(--border-hover);
+}
+
+
+.featured .featured-slider .box .image{
+    padding: 1rem;
+    background: linear-gradient(15deg,#eee 30%,#fff 30.1%);
+}
+
+.featured .featured-slider .box .image img{
+    height: 25rem;
+
+}
+.featured .featured-slider .box .icons{
+    padding-bottom: var(--border-hover);
+    position: absolute;
+    
+}
 
 
 
